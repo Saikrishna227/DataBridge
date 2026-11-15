@@ -14,6 +14,6 @@ public class InheritenceInitializationDemo {
     }
 
     public InheritenceInitializationDemo(int amount){
-        System.out.println("Constructor executed: " + amount);
+        System.out.println("Constructor executed: " + amount );
     }
 }
