@@ -13,7 +13,7 @@ public class InheritenceInitializationDemo {
         parentValue+= 50;
     }
 
-    public InheritenceInitializationDemo(){
-        System.out.println("Constructor executed: " + parentValue);
+    public InheritenceInitializationDemo(int amount){
+        System.out.println("Constructor executed: " + amount);
     }
 }

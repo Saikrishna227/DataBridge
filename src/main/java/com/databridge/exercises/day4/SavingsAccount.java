@@ -17,6 +17,11 @@ public class SavingsAccount extends InheritenceInitializationDemo{
     }
 
     SavingsAccount(){
+        this(500);
         System.out.println("Savings Account constructor executed:" + childValue);
+    }
+    SavingsAccount(int amount){
+        super(amount);
+        System.out.println("this is under the params constrctor: " + amount);
     }
 }
